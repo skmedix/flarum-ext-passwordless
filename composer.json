@@ -1,13 +1,13 @@
 {
     "name": "clarkwinkelmann/flarum-ext-passwordless",
-    "description": "Passwordless login for Flarum",
+    "description": "Passwordless login for Flarum (fork)",
     "keywords": [
         "flarum"
     ],
     "type": "flarum-extension",
     "license": "MIT",
     "require": {
-        "flarum/core": ">=0.1.0-beta.14 <0.1.0-beta.15"
+        "flarum/core": ">=0.1.0-beta.14 <0.1.0-beta.16"
     },
     "authors": [
         {
@@ -24,6 +24,7 @@
     "extra": {
         "flarum-extension": {
             "title": "Passwordless",
+            "category": "authentication",
             "icon": {
                 "name": "fas fa-envelope-open-text",
                 "backgroundColor": "#684ba6",
